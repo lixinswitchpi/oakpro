@@ -26,6 +26,7 @@
 #include <linux/of_dma.h>
 #include <linux/proc_fs.h>
 #include <linux/delay.h>
+#include <linux/seq_file.h>
 
 #define BCM2835_DMA_MAX_DMA_CHAN_SUPPORTED 14
 #define BCM2835_DMA_CHAN_NAME_SIZE 8
